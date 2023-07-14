@@ -1,0 +1,13 @@
+
+@media(max-width:320px){
+    .im1{
+        width: 300px;
+    }
+}
+@media(max-width:375px){
+
+    .im1{
+        width: 300px;
+    }
+}
+

@@ -1,0 +1,228 @@
+.right{
+    position: relative;
+width: 100%;
+height: 100vh;
+}
+.right h1{
+    position: absolute;
+    top: 210px;
+    left: 300px;
+}
+.right p{
+    position: absolute;
+    top: 270px;
+left: 300px;
+}
+.right .btn{
+position: absolute;
+top: 370px;
+left: 400px;
+background-color: blue;
+color: white;
+}
+/*----------media mobiel---------------*/
+
+@media(max-width:600px){
+.right{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.right h1{
+position: absolute;
+left: 30px;
+font-size: 20px;
+}
+.right p{
+    position: absolute;
+    left: 25px;
+}
+.right .btn {
+    position: absolute;
+    left: 55px;
+top: 520px;
+}
+}
+
+    
+/*-----------------------*/
+@media(max-width:600px){
+    iframe {
+        width: 300px;
+    }
+    .r1{
+   display: none;
+    }
+
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+.id1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.id2{
+    width: 100%;
+    height: 50vh;
+    margin-left: 150px;
+    display: flex;
+   
+}
+.hhh{
+    position: absolute;
+   left: 800px;
+   bottom: 100px;
+}
+.hh{
+    position: absolute;
+    left: 650px;
+    bottom: 100px;
+}
+.h{
+    position: absolute;
+    left: 480px;
+    bottom: 100px;
+}
+
+
+#i1{
+
+    position: absolute;
+    bottom:200px;
+    left: 480px;
+    font-size: large;
+}
+#i2{
+    position: absolute;
+    bottom: 200px;
+    left: 650px;
+}
+#i3{
+    position: absolute;
+    bottom: 200px;
+    left: 800px;
+}
+
+@media(max-width:320px){
+    .id1{
+        position: relative;
+    }
+    .hhh{
+        position: absolute;
+        left: 10px;
+    }
+    .hh{
+        position: absolute;
+        left: 120px;
+    }
+    .h{
+        position: absolute;
+        left: 220px;
+    }
+#i1{
+    position: absolute;
+    left: 25px;
+
+}
+#i2{
+    position: absolute;
+    left: 125px;
+}
+#i3{
+    position: absolute;
+    left: 225px;
+}
+
+    
+}
+
+
+
+@media(min-width:375px){
+    .id1{
+        position: relative;
+    }
+    .hhh{
+        position: absolute;
+        left: 10px;
+    }
+    .hh{
+        position: absolute;
+        left: 120px;
+    }
+    .h{
+        position: absolute;
+        left: 220px;
+    }
+#i1{
+    position: absolute;
+    left: 25px;
+
+}
+#i2{
+    position: absolute;
+    left: 125px;
+}
+#i3{
+    position: absolute;
+    left: 225px;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:320px){
+
+.card{
+margin-top: 50px;
+}
+#ll{
+    margin-top: 200px;
+}
+#lll{
+    margin-top: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:375px){
+
+.card{
+margin-top: 50px;
+}
+#ll{
+    margin-top: 200px;
+}
+#lll{
+    margin-top: 20px;
+}
+}
